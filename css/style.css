@@ -1,0 +1,86 @@
+body {
+  font: inherit;
+}
+.navbar {
+  font-size: x-large;
+  background: linear-gradient(#631aec, #fefefe);
+  padding-left: 30px;
+}
+li {
+  padding: 20px;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+p {
+  font-size: large;
+}
+
+.custom {
+  background: linear-gradient(#fefefe, #631aec);
+
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.site {
+  border-radius: 50%;
+}
+
+.service {
+  padding-top: 60px;
+  background: linear-gradient(#631aec, #fefefe);
+}
+.service-row {
+  padding-bottom: 15px;
+}
+.ptextimg1 {
+  padding-bottom: 27px;
+}
+.ptext {
+  margin-top: 30px;
+}
+.img-rede1 {
+  margin-top: 10px;
+}
+.ptext2 {
+  padding-bottom: 20px;
+}
+.img-somos {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.textsomos {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.img {
+  margin-top: 60px;
+}
+footer {
+  text-align: center;
+}
+.footer-img {
+  width: 100px;
+}
+
+.p-footer {
+  font-size: medium;
+}
+.p-dev {
+  margin-bottom: 15px;
+}
+@media (max-width: 991px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .navbar-custom {
+    font-size: xx-large;
+  }
+}
